@@ -1,4 +1,4 @@
 package cigaretteProject.repo;
 
-public class AnswersRepository {
+public interface AnswersRepository {
 }
