@@ -1,21 +1,21 @@
 package cigaretteProject.mapper;
 
 import cigaretteProject.model.PersonalInfo;
-import cigaretteProject.model.PersonalInfoSurvey;
+import cigaretteProject.model.Survey;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Mapper {
 
-    public PersonalInfo getPersonalInfo(PersonalInfoSurvey personalInfoSurvey){
+    public PersonalInfo getPersonalInfo(Survey survey){
         PersonalInfo personalInfo = new PersonalInfo();
-        personalInfo.setAge(personalInfoSurvey.getAge());
-        personalInfo.setEducation(personalInfoSurvey.getEducation());
-        personalInfo.setGender(personalInfoSurvey.getGender());
-        personalInfo.setIncome(personalInfoSurvey.getIncome());
-        personalInfo.setMaritalStatus(personalInfoSurvey.getMaritalStatus());
-        personalInfo.setResidence(personalInfoSurvey.getResidence());
-        personalInfo.setSmoker(personalInfoSurvey.getSmoker());
+        personalInfo.setAge(survey.getAge());
+        personalInfo.setEducation(survey.getEducation());
+        personalInfo.setGender(survey.getGender());
+        personalInfo.setIncome(survey.getIncome());
+        personalInfo.setMaritalStatus(survey.getMaritalStatus());
+        personalInfo.setResidence(survey.getResidence());
+        personalInfo.setSmoker(survey.getSmoker());
 
         return personalInfo;
     }

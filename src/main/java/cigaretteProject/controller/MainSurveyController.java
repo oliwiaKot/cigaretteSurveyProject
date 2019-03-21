@@ -2,7 +2,7 @@ package cigaretteProject.controller;
 
 import cigaretteProject.mapper.Mapper;
 import cigaretteProject.model.PersonalInfo;
-import cigaretteProject.model.PersonalInfoSurvey;
+import cigaretteProject.model.Survey;
 import cigaretteProject.repo.PersonalInfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,11 +20,13 @@ public class MainSurveyController {
 
     @PostMapping(path ="/personalinfo", consumes = "application/x-www-form-urlencoded;charset=UTF-8")
     @ResponseBody
-    public void postSurveyPersonalInfo(PersonalInfoSurvey personalInfoSurvey) {
+    public void postSurveyPersonalInfo(Survey survey) {
 
-        PersonalInfo personalInfo = this.mapper.getPersonalInfo(personalInfoSurvey);
+        PersonalInfo personalInfo = this.mapper.getPersonalInfo(survey);
         this.personalInfoRepository.save(personalInfo);
 
         }
+
+
 
 }
