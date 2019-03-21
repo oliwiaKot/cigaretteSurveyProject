@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
+    <script src="personalinfosurvey.js" type="application/javascript"></script>
+
+</head>
+<body>
+    <form name="personalinfo" method="post" action="/personalinfo" >
+
+
+
+        <div class="questionField">
+            <fieldset id="groupAge">
+                <question>Wiek</question>
+
+                <select name="age" title="Wiek" id="age">
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46-55">46-55</option>
+                    <option value="56-and-more">56+</option>
+                </select>
+            </fieldset>
+        </div>
+        <br>
+        <div class="questionField">
+            <fieldset id="group_gender">
+                <question>Płeć</question>
+                <br>
+                <input type="radio" id="male" value="male" name="gender" checked>
+                <label>Mężczyzna</label>
+                <input type="radio" id="female" value="female" name="gender">
+                <label>Kobieta</label>
+            </fieldset>
+        </div>
+        <br>
+        <div class="questionField">
+            <fieldset id="groupEducation">
+                <guestion>Wykształcenie</guestion>
+
+                <select name="education" title="Wyksztalcenie" id="education">
+                    <option value="primary">podstawowe</option>
+                    <option value="secondary">średnie</option>
+                    <option value="higher">wyższe</option>
+                </select>
+            </fieldset>
+        </div>
+        <br>
+        <div class="questionField">
+            <fieldset id="groupMaritalStatus">
+                <question>Stan cywilny</question>
+                <br>
+                <input type="radio" id="single" value="single" name="maritalStatus" checked>wolny</input>
+                <input type="radio" id="married" value="married" name="maritalStatus">w stałym związku/zamężna/żonaty</input>
+                <input type="radio" id="divorced" value="divorced" name="maritalStatus">rozwiedziony(a)</input>
+
+            </fieldset>
+        </div>
+        <br>
+        <div class="questionField">
+            <fieldset id="groupResidence">
+                <question>Miejsce zamieszkania</question>
+
+                <select name="residence" title="Miejsce zamieszkania">
+                    <option value="city up to 25thousand">Miasto (do 25tys mieszkańców)</option>
+                    <option value="city 25-50 thousand">Miasto (do 50tys mieszkańców)</option>
+                    <option value="city 50-100 thousand">Miasto (do 100tys mieszkańców)</option>
+                    <option value="city 100-250 thousand">Miasto (do 250tys mieszkańców)</option>
+                    <option value="city 250-500 thousand">Miasto (do 500tys mieszkańców)</option>
+                    <option value="city up to 1 million">Miasto (do 1 miliona mieszkańców)</option>
+                    <option value="city above 1 million">Miasto (powyzej 1 miliona mieszkańców)</option>
+                    <option value="village up to 1 thousand">Wieś (do 1tys mieszkńców) </option>
+                    <option value="village 1-5 thousand">Wieś (do 5tys mieszkańców))</option>
+                    <option value="village 5-10 thousand">Wieś (do 10tys mieszkańców)</option>
+                    <option value="village above 10 thousand">Wieś (powyżej 10tys mieszkańców)</option>
+                </select>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <question>Dochód miesięczny</question>
+
+                <select name="income" title="Dochod miesieczny">
+                    <option value="0">Brak</option>
+                    <option value="1500">do 1500zł</option>
+                    <option value="2500">do 2500zł</option>
+                    <option value="5000">do 5000zł</option>
+                    <option value="10000">do 10000zł</option>
+                    <option value="10000+">10000zł i więcej</option>
+                </select>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <br>
+            <fieldset id="groupSmoking"  >
+                <question>Czy palisz/paliłeś(łaś) (Wyroby tytoniowe i/lub E-papierosy)?</question>
+                <br>
+                <input type="radio" value="yes" id="smoker_yes" name="smoker" checked>
+                <label>Palę</label>
+                <input type="radio" value="no" id="smoker_no" name="smoker">
+                <label>Nie paliłem(łam) i nie palę</label>
+                <input type="radio" value="ex" id="smoker_ex" name="smoker">
+                <label>Paliłem(łam), ale już nie palę</label>
+            </fieldset>
+        </div>
+        <br>
+        <input type="submit" value="Dalej" >
+    </form>
+</body>
+</html>
