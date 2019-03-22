@@ -9,6 +9,7 @@ public class Survey {
     private String residence; //gdzie mieszka, jednokrotny wybór
     private String education; //wykształcenie jednokrotny wybór
     private String maritalStatus; //stan cywilny, jednokrotny wybór
+
     private String otherAddictions; //inne uzależnienia, jednokrotny wybór
     private String family; //czy ktoś w rodzinie pali, jednokrotny wybór
     private String friends; //czy ktoś wśród znajomych pali, jednokrotny wybór

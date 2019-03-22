@@ -9,6 +9,6 @@ import cigaretteProject.model.Answer;
 @RepositoryDefinition(domainClass = Answer.class, idClass = Long.class)
 public interface AnswerRepository {
 
-    void save(Answer answer);
+    void save(Answer answer); //zapis wiersza w tabeli asocjacyjnej zawierającej odpowiedzi użytkowników
 
 }

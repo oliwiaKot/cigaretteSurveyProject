@@ -9,19 +9,22 @@ import javax.validation.constraints.NotBlank;
 
 @Entity
 public class Answer {
-
+//Id odpowiedzi, generowane automatycznie przez Spring
     @Id
     @GeneratedValue
     private Long id;
-
+    //Id osoby jest FK w tabeli z odp., przechowywane ma być w tabeli Answers.
+    //Wystarczy opisać związek jednostronnie, że Many Answers To One Person.
+    //Po przypisaniu relacji do obiektu, Spring za klucz przyjmie Id obiektu, czyli Id osoby
     @ManyToOne
     private PersonalInfo personalInfo;
 
+    //analogicznie jak dla osoby
     @ManyToOne
     private Question question;
 
     @NotBlank
-    private String answer;
+    private String answer; //nie chcemy zapisywać pustych odpowiedzi
 
     public PersonalInfo getPersonalInfo() {
         return personalInfo;

@@ -29,9 +29,13 @@ public class MainSurveyController {
     @ResponseBody
     public void postSurveyPersonalInfo(Survey survey) {
 
+        //tworzymy nowy obiekt personal info, wywołujemy metodę z mappera, ktora przypisuje mu wartości pobrane z formularza
+        //zapisujemy obiekt jako wiersz tablicy
         PersonalInfo personalInfo = this.mapper.getPersonalInfo(survey);
         this.personalInfoRepository.save(personalInfo);
 
+        //Tworzymy listę odpowiedzi na pojedyncze pytania użytkonika wywołując metodę z mappera, która wpisuje do niej odpowiedzi pobrane z formularza
+        //w pętli zapisujemy pojedyncze obiekty Answer przechowywane w liście jako wiersze tabeli answers
         List<Answer> answerList = this.mapper.getAnswerList(survey, personalInfo);
         for(int i =0; i<answerList.size(); i++){
          this.answerRepository.save(answerList.get(i));

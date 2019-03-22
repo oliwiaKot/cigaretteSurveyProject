@@ -17,6 +17,8 @@ public class Mapper {
     @Autowired
     private QuestionRepository questionRepository;
 
+
+    //metoda, która do obiektu klasy PersonalInfo przypisuje odpowiedzi z formularza z danymi osobowymi i zwraca ten obiekt
     public PersonalInfo getPersonalInfo(Survey survey){
         PersonalInfo personalInfo = new PersonalInfo();
         personalInfo.setAge(survey.getAge());
@@ -30,26 +32,44 @@ public class Mapper {
         return personalInfo;
     }
 
+    //metoda, która zwróci listę pojedynczych odpowiedzi na pytania szczegółowe, ktorych udzielił użytkownik w ankiecie
+    //w zależności od tego, czy zadeklarował się jako palacz, były palacz czy osoba niepaląca
     public List<Answer> getAnswerList(Survey survey, PersonalInfo personalInfo){
         List<Answer> answerList = new ArrayList<>();
-        if(survey.getSmoker().equalsIgnoreCase("yes")) {
-            Answer answer = new Answer();
-            answer.setAnswer(survey.getFrequency());
-            answer.setPersonalInfo(personalInfo);
-            Question question=questionRepository.findById(QuestionTableInitializer.frequencyQuestionId);
-            answer.setQuestion(question);
-            answerList.add(answer);
 
+        //ify żeby dodać odpowiedzi na pytania specyficzne dla palacza/byłego palacza/niepalącego
+        if(survey.getSmoker().equalsIgnoreCase("yes") || survey.getSmoker().equalsIgnoreCase("ex")) {
+
+            getOneAnswer(survey.getFrequency(), questionRepository.findById(QuestionTableInitializer.frequencyQuestionId), personalInfo, answerList);
             for(int i=0; i<survey.getSituations().length; i++){
-                //to samo co wyżej tylko id sobie ustaw i dodaj każde do listy
+                getOneAnswer(survey.getSituations()[i], questionRepository.findById(QuestionTableInitializer.situationsQuestionId), personalInfo, answerList);
             }
 
 
-        }else if(survey.getSmoker().equalsIgnoreCase("no")) {
+        }
+        if(survey.getSmoker().equalsIgnoreCase("no") || survey.getSmoker().equalsIgnoreCase("ex")) {
 
-        }else if(survey.getSmoker().equalsIgnoreCase("ex")) {
+            for(int i=0; i<survey.getReasons().length; i++){
+                getOneAnswer(survey.getReasons()[i], questionRepository.findById(QuestionTableInitializer.reasonsQuestionId), personalInfo, answerList);
+            }
 
         }
+
+        //pytania wspólne dla wszystich
+        getOneAnswer(survey.getFamily(), questionRepository.findById(QuestionTableInitializer.familyQuestionId), personalInfo, answerList);
+        getOneAnswer(survey.getFriends(), questionRepository.findById(QuestionTableInitializer.friendsQuestionId), personalInfo, answerList);
+        getOneAnswer(survey.getOtherAddictions(), questionRepository.findById(QuestionTableInitializer.otherAddictionsQuestionId), personalInfo, answerList);
+
+        //zwracamy listę odpowiedzi
         return answerList;
+    }
+
+    //metoda, ktora dodaje pojedynczą odpowiedź do listy odpowiedzi użytkownika
+    public void getOneAnswer(String answerText, Question quest, PersonalInfo persInfo, List<Answer> ansList){
+        Answer answer = new Answer();
+        answer.setAnswer(answerText);
+        answer.setQuestion(quest);
+        answer.setPersonalInfo(persInfo);
+        ansList.add(answer);
     }
 }

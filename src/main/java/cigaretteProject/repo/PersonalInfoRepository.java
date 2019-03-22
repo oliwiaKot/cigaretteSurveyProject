@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 @RepositoryDefinition(domainClass = PersonalInfo.class, idClass = Long.class)
 public interface PersonalInfoRepository {
 
-    void save(PersonalInfo personalInfo);
+    void save(PersonalInfo personalInfo); //zapis wiersza w tabeli danych o osobie
 }

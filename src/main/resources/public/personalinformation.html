@@ -5,13 +5,18 @@
     <title>Title</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
     <script src="personalinfosurvey.js" type="application/javascript"></script>
-
+    <link rel="stylesheet" type="text/css" href="surveystyle.css">
 </head>
 <body>
+
+<h1>Badanie dot. czynników wpływających na uzależnienie od papierosów.</h1>
+<h2>Ankieta jest anonimowa, prosimy o szczere odpowiedzi.</h2>
     <form name="personalinfo" method="post" action="/personalinfo" >
-
-
+<p id="questionNumber" hidden></p>
+<br>
     <div id="personalInformationSurvey">
+        <h3>Prosimy o wypełnienie formularza z danymi podstawowymi. Aby przejść do pytań szczegółowych kliknij "Następne"</h3>
+        <br>
         <div class="questionField">
                 <fieldset id="groupAge">
                     <question>Wiek</question>
@@ -94,7 +99,6 @@
                     </select>
                 </fieldset>
             </div>
-            <br>
             <div class="guestionField">
                 <br>
                 <fieldset id="groupSmoking" >
@@ -159,6 +163,7 @@
                 <input type="radio" value="no" id="friends_no" name="friends">
                 <label>Nie</label>
             </fieldset>
+            <br>
             <button type="button" onclick="friendsNext()" >Następne</button>
             <br>
         </div>
@@ -169,7 +174,7 @@
                 <question>Dlaczego nie palisz? (Pytanie wielokrotnego wyboru, przytrzymaj ctrl aby zaznaczyć więcej niż jedną odpowiedź)</question>
                 <br>
                 <select name="reasons" title="Dlaczego nie palisz?" multiple>
-                    <option value="health">Ze względów zdrowotnych</option>
+                    <option value="health" selected>Ze względów zdrowotnych</option>
                     <option value="finance">Ze względów finansowych</option>
                     <option value="smell">Przeszkadza mi zapach dymu papierosowego</option>
                     <option value="friends">Ze względu na moją rodzinę/znajomych</option>
@@ -184,8 +189,8 @@
             <fieldset id="groupSituations" >
                 <question>W jakich sytuacjach palisz najczęściej?(Pytanie wielokrotnego wyboru, przytrzymaj ctrl aby zaznaczyć więcej niż jedną odpowiedź)</question>
                 <br>
-                <select name="situations" title="W jakich sytuacjach najczęściej palisz?" multiple>
-                    <option value="stress">W sytuacjach stresowych np. przed egzaminem, ważną rozmową, po kłótni.</option>
+                <select name="situations" title="W jakich sytuacjach najczęściej palisz/ paliłeś?" multiple>
+                    <option value="stress" selected>W sytuacjach stresowych np. przed egzaminem, ważną rozmową, po kłótni.</option>
                     <option value="alcohol">Na imprezach/przy alkoholu</option>
                     <option value="boredom">Kiedy się nudzę</option>
                     <option value="friends">Dla towarzystwa</option>

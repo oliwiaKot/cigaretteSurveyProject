@@ -11,9 +11,9 @@ import cigaretteProject.model.Question;
 @RepositoryDefinition(domainClass = Question.class, idClass = Long.class)
 public interface QuestionRepository {
 
-    Question findById(Long id);
-    List<Question> findAllByOrderByIdAsc();
-    Long count();
-    void save(Question question);
+    Question findById(Long id); //znajduje pytanie po jego Id, potrzebne do zapisania w bazie odp z formularza
+    List<Question> findAllByOrderByIdAsc(); //można sobie je wypisać w porzadku rosnącym
+    Long count(); //Liczy ile jest pytań w liście pytań, potrzebne do sprawdzenia czy już są zapisane czy nie w QuestionTableInitializer
+    void save(Question question); //zapis rzedu w tabeli pytań
 
 }
