@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef1396d-f983-4ca2-a7d2-e49071f039b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/surveystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/cigarette_smoke_bench_boy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/gradient_watercolor_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/notfunny.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/smallstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/thankyou.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/cigaretteProject/controller/MainSurveyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cigaretteProject/controller/MainSurveyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cigaretteProject/mapper/Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cigaretteProject/mapper/Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cigaretteProject/model/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cigaretteProject/model/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cigaretteProject/model/Survey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cigaretteProject/model/Survey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cigaretteProject/repo/AnswersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cigaretteProject/repo/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cigaretteProject/repo/QuestionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cigaretteProject/util/QuestionTableInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cigaretteProject/util/QuestionTableInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/public/personalinformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/public/personalinformation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/public/personalinfosurvey.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/public/personalinfosurvey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/public/surveystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/public/surveystyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/mapper/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/model/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/model/Survey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/model/Survey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/repo/AnswerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/repo/AnswerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/repo/AnswersRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/repo/PersonalInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/repo/PersonalInfoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/repo/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/repo/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cigaretteProject/util/QuestionTableInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cigaretteProject/util/QuestionTableInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/personalinformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/personalinformation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/personalinfosurvey.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/personalinfosurvey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/surveystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/surveystyle.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,8 +35,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/repo/PersonalInfoRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="73" column="139" selection-start-line="73" selection-start-column="139" selection-end-line="73" selection-end-column="139" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,22 +59,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/public/personalinformation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="8" />
+              <folding>
+                <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#form#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/smallstyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/public/surveystyle.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/thankyou.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/personalinfosurvey.js">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/notfunny.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1409">
-              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -88,57 +115,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/model/Question.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/model/PersonalInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="15">
               <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/mapper/Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="37" column="105" selection-start-line="37" selection-start-column="105" selection-end-line="37" selection-end-column="105" />
+            <state relative-caret-position="443">
+              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/util/QuestionTableInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -148,11 +143,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="package.json" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="SCSS File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -188,12 +184,16 @@
         <option value="$PROJECT_DIR$/src/main/java/cigaretteProject/model/Answer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cigaretteProject/model/Survey.java" />
         <option value="$PROJECT_DIR$/src/main/java/cigaretteProject/mapper/Mapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cigaretteProject/util/QuestionTableInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/personalinfosurvey.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/personalinformation.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/surveystyle.css" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/personalinfosurvey.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/surveystyles.scss" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/personalinformation.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/smallstyles.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/surveystyle.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/notfunny.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/thankyou.html" />
       </list>
     </option>
   </component>
@@ -215,35 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="cigaretteProject.cigProject.main" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="cigaretteProject.cigProject.main" type="616d4139:PackageViewModuleNode" />
-              <item name="cigaretteProject" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="cigaretteProject.cigProject.main" type="616d4139:PackageViewModuleNode" />
-              <item name="public" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,20 +317,57 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="cigaretteProject.cigProject.main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="cigaretteProject.cigProject.main" type="616d4139:PackageViewModuleNode" />
+              <item name="cigaretteProject" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cigProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cigaretteProject.cigProject" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="cigaretteProject.cigProject.main" type="616d4139:PackageViewModuleNode" />
+              <item name="public" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553247571708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553696926906" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="settings.css.dialects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olivi\IdeaProjects\cigProject\src\main\resources\public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -404,18 +412,25 @@
       <option name="presentableId" value="Default" />
       <updated>1553100805525</updated>
       <workItem from="1553100809334" duration="8429000" />
-      <workItem from="1553113300274" duration="42637000" />
+      <workItem from="1553113300274" duration="43257000" />
+      <workItem from="1553510450027" duration="612000" />
+      <workItem from="1553515981671" duration="2179000" />
+      <workItem from="1553534124661" duration="62000" />
+      <workItem from="1553540368574" duration="189000" />
+      <workItem from="1553540585182" duration="5902000" />
+      <workItem from="1553594969634" duration="11739000" />
+      <workItem from="1553674791476" duration="11644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51066000" />
+    <option name="totallyTimeSpent" value="84013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -423,25 +438,25 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.5042194" side_tool="true" weight="0.25302014" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40509915" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40509915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" visible="true" weight="0.020134227" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -492,6 +507,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -507,72 +526,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationProperties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/appProperties.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appProperties.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qaddictions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qfamily.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qfrequency.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qfriends.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="9" selection-start-column="7" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qreasons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" selection-start-line="8" selection-start-column="7" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qsituations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationProperties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/appProperties.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appProperties.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qaddictions.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qfamily.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qfrequency.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qfriends.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qreasons.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/qsituations.html" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
@@ -586,13 +549,7 @@
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/model/Answers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/model/Answers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -627,53 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/mapper/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/repo/AnswersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/repo/PersonalInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="105" selection-start-line="37" selection-start-column="105" selection-end-line="37" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/util/QuestionTableInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/repo/AnswersRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/model/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -681,14 +592,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/model/PersonalInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/util/QuestionTableInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="595">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/surveystyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4097">
+          <caret line="241" column="1" selection-start-line="241" selection-start-column="1" selection-end-line="241" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/personalinfosurvey.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/repo/PersonalInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,27 +636,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/personalinfosurvey.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/model/PersonalInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1409">
-          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/mapper/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cigaretteProject/controller/MainSurveyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="73" column="139" selection-start-line="73" selection-start-column="139" selection-end-line="73" selection-end-column="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/smallstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/surveystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/personalinformation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#form#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/surveystyle.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/notfunny.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/thankyou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
         </state>
       </provider>
     </entry>

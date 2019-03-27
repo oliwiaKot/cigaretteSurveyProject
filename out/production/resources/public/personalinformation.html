@@ -5,218 +5,247 @@
     <title>Title</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
     <script src="personalinfosurvey.js" type="application/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="surveystyle.css">
+    <link rel="stylesheet"  href="surveystyle.css?version=95">
+
 </head>
 <body>
 
-<h1>Badanie dot. czynników wpływających na uzależnienie od papierosów.</h1>
-<h2>Ankieta jest anonimowa, prosimy o szczere odpowiedzi.</h2>
-    <form name="personalinfo" method="post" action="/personalinfo" >
-<p id="questionNumber" hidden></p>
-<br>
-    <div id="personalInformationSurvey">
-        <h3>Prosimy o wypełnienie formularza z danymi podstawowymi. Aby przejść do pytań szczegółowych kliknij "Następne"</h3>
-        <br>
-        <div class="questionField">
-                <fieldset id="groupAge">
-                    <question>Wiek</question>
 
+
+    <form name="personalinfo" method="post" action="/personalinfo" >
+        <div class="title">
+            <h1>BADANIE DOT. CZYNNIKÓW WPŁYWAJĄCYCH NA UZALEŻNIENIE OD PAPIEROSÓW</h1>
+            <h2>ANKIETA JEST ANONIMOWA, PROSIMY O SZCZERE ODPOWIEDZI.</h2>
+
+        </div>
+
+    <div id="personalInformationSurvey">
+        <h3 >Prosimy o wypełnienie formularza z danymi podstawowymi. Aby przejść do pytań szczegółowych kliknij "Następne"</h3>
+
+        <div class="questionpair">
+        <div class="questionField" id="groupAge">
+
+                    <label for="age" class="question">Wiek:</label>
+<div class="select">
                     <select name="age" title="Wiek" id="age">
+
                         <option value="18-25">18-25</option>
                         <option value="26-35">26-35</option>
                         <option value="36-45">36-45</option>
                         <option value="46-55">46-55</option>
                         <option value="56-and-more">56+</option>
                     </select>
-                </fieldset>
+        </div>
             </div>
-            <br>
-            <div class="questionField">
-                <fieldset id="group_gender">
-                    <question>Płeć</question>
-                    <br>
-                    <input type="radio" id="male" value="male" name="gender" checked>
-                    <label>Mężczyzna</label>
-                    <input type="radio" id="female" value="female" name="gender">
-                    <label>Kobieta</label>
-                </fieldset>
-            </div>
-            <br>
-            <div class="questionField">
-                <fieldset id="groupEducation">
-                    <guestion>Wykształcenie</guestion>
 
+            <div class="questionField" id="group_gender">
+
+                    <label class="question">Płeć:</label>
+<br>
+                <label for="male" class="container">mężczyzna
+                    <input type="radio" id="male" value="male" name="gender" checked>
+                    <span class="checkmark"></span>
+                    </label>
+                <label for="female" class="container">kobieta
+                    <input type="radio" id="female" value="female" name="gender">
+                    <span class="checkmark"></span>
+                    </label>
+
+            </div>
+    </div>
+
+        <div class="questionpair">
+            <div class="questionField" id="groupEducation">
+
+                    <label for="education" class="question">Wykształcenie:</label>
+<div class="select">
                     <select name="education" title="Wyksztalcenie" id="education">
                         <option value="primary">podstawowe</option>
                         <option value="secondary">średnie</option>
                         <option value="higher">wyższe</option>
                     </select>
-                </fieldset>
             </div>
-            <br>
-            <div class="questionField">
-                <fieldset id="groupMaritalStatus">
-                    <question>Stan cywilny</question>
-                    <br>
-                    <input type="radio" id="single" value="single" name="maritalStatus" checked>wolny</input>
-                    <input type="radio" id="married" value="married" name="maritalStatus">w stałym związku/zamężna/żonaty</input>
-                    <input type="radio" id="divorced" value="divorced" name="maritalStatus">rozwiedziony(a)</input>
-
-                </fieldset>
             </div>
-            <br>
-            <div class="questionField">
-                <fieldset id="groupResidence">
-                    <question>Miejsce zamieszkania</question>
 
-                    <select name="residence" title="Miejsce zamieszkania">
-                        <option value="city up to 25thousand">Miasto (do 25tys mieszkańców)</option>
-                        <option value="city 25-50 thousand">Miasto (do 50tys mieszkańców)</option>
-                        <option value="city 50-100 thousand">Miasto (do 100tys mieszkańców)</option>
-                        <option value="city 100-250 thousand">Miasto (do 250tys mieszkańców)</option>
-                        <option value="city 250-500 thousand">Miasto (do 500tys mieszkańców)</option>
-                        <option value="city up to 1 million">Miasto (do 1 miliona mieszkańców)</option>
-                        <option value="city above 1 million">Miasto (powyzej 1 miliona mieszkańców)</option>
-                        <option value="village up to 1 thousand">Wieś (do 1tys mieszkńców) </option>
-                        <option value="village 1-5 thousand">Wieś (do 5tys mieszkańców))</option>
-                        <option value="village 5-10 thousand">Wieś (do 10tys mieszkańców)</option>
-                        <option value="village above 10 thousand">Wieś (powyżej 10tys mieszkańców)</option>
+            <div class="questionField" id="groupMaritalStatus">
+
+                    <label class="question">Stan cywilny:</label>
+<br>
+                <label for="single" class="container">wolny
+                    <input type="radio" id="single" value="single" name="maritalStatus" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label for="married" class="container">w stałym związku/zamężna/żonaty
+                    <input type="radio" id="married" value="married" name="maritalStatus">
+                    <span class="checkmark"></span>
+                </label>
+                <label for="divorced" class="container">rozwiedziony(a)
+                    <input type="radio" id="divorced" value="divorced" name="maritalStatus">
+                    <span class="checkmark"></span>
+                </label>
+
+            </div>
+        </div>
+
+        <div class="questionpair">
+
+            <div class="questionField" id="groupResidence">
+
+                    <label for="residence" class="question">Miejsce zamieszkania:</label>
+<div class="select">
+                    <select name="residence" title="Miejsce zamieszkania" id="residence">
+                        <option value="city up to 25thousand">miasto (do 25tys mieszkańców)</option>
+                        <option value="city 25-50 thousand">miasto (do 50tys mieszkańców)</option>
+                        <option value="city 50-100 thousand">miasto (do 100tys mieszkańców)</option>
+                        <option value="city 100-250 thousand">miasto (do 250tys mieszkańców)</option>
+                        <option value="city 250-500 thousand">miasto (do 500tys mieszkańców)</option>
+                        <option value="city up to 1 million">miasto (do 1 miliona mieszkańców)</option>
+                        <option value="city above 1 million">miasto (powyzej 1 miliona mieszkańców)</option>
+                        <option value="village up to 1 thousand">wieś (do 1tys mieszkńców) </option>
+                        <option value="village 1-5 thousand">wieś (do 5tys mieszkańców))</option>
+                        <option value="village 5-10 thousand">wieś (do 10tys mieszkańców)</option>
+                        <option value="village above 10 thousand">wieś (powyżej 10tys mieszkańców)</option>
                     </select>
-                </fieldset>
             </div>
-            <br>
-            <div>
-                <fieldset id="groupIncome">
-                    <question>Dochód miesięczny</question>
+            </div>
 
-                    <select name="income" title="Dochod miesieczny">
-                        <option value="0">Brak</option>
+            <div class="questionField" id="groupIncome">
+
+                    <label for="income" class="question">Dochód miesięczny:</label>
+<div class="select">
+                    <select name="income" title="Dochod miesieczny" id="income">
+                        <option value="0">brak</option>
                         <option value="1500">do 1500zł</option>
                         <option value="2500">do 2500zł</option>
                         <option value="5000">do 5000zł</option>
                         <option value="10000">do 10000zł</option>
                         <option value="10000+">10000zł i więcej</option>
                     </select>
-                </fieldset>
             </div>
-            <div class="guestionField">
-                <br>
-                <fieldset id="groupSmoking" >
-                    <question>Czy palisz/paliłeś(łaś) (Wyroby tytoniowe i/lub E-papierosy)?</question>
-                    <br>
-                    <input type="radio" value="yes" id="smoker_yes" name="smoker" checked>
-                    <label>Palę</label>
-                    <input type="radio" value="no" id="smoker_no" name="smoker">
-                    <label>Nie paliłem(łam) i nie palę</label>
-                    <input type="radio" value="ex" id="smoker_ex" name="smoker">
-                    <label>Paliłem(łam), ale już nie palę</label>
+            </div>
+        </div>
 
-                </fieldset>
+        <div class="questionpair">
+            <div class="questionField" id="groupSmoking">
+
+
+                    <label class="question">Czy palisz/paliłeś(łaś) (Wyroby tytoniowe i/lub E-papierosy)?</label>
+<br>
+                <label for="smoker_yes" class="container">palę
+                    <input type="radio" value="yes" id="smoker_yes" name="smoker"  checked>
+                    <span class="checkmark"></span>
+                    </label>
+
+                <label for="smoker_no" class="container">nie paliłem(łam) i nie palę
+                    <input type="radio" value="no" id="smoker_no" name="smoker">
+                    <span class="checkmark"></span>
+                    </label>
+                <label for="smoker_ex" class="container">paliłem(łam), ale już nie palę
+                    <input type="radio" value="ex" id="smoker_ex" name="smoker">
+                    <span class="checkmark"></span>
+                    </label>
+
             </div>
-            <br>
-        <button type="button" onclick="personalInfoNext()">Następne</button>
+            <button type="button" class="customButton" onclick="personalInfoNext()">Następne</button>
+    </div>
+
         <br>
     </div>
 
+        <p id="questionNumber" hidden></p>
+<div class="QB" id="familyQ" hidden>
+        <div class="questionField"  id="groupFamily" >
 
-        <div class="questionField" id="familyQ" hidden>
-            <br>
-            <fieldset id="groupFamily" >
-                <question>Czy ktoś w Twojej rodzinie pali?</question>
+                <label class="question">Czy ktoś w Twojej rodzinie pali?</label>
                 <br>
+            <label for="family_yes" class="container">tak
                 <input type="radio" value="yes" id="family_yes" name="family" checked>
-                <label>Tak</label>
+                <span class="checkmark"></span>
+                </label>
+            <label for="family_no" class="container">nie
                 <input type="radio" value="no" id="family_no" name="family">
-                <label>Nie</label>
-            </fieldset>
-            <br>
-            <button type="button" onclick="familyNext()">Następne</button>
-            <br>
+                <span class="checkmark"></span>
+                </label>
         </div>
-
-
-        <div class="questionField" id="frequencyQ" hidden>
-            <br>
-            <fieldset id="groupFrequency" >
-                <question>Jak często palisz?</question>
-
-                <select name="frequency" title="Jak często palisz?">
-                    <option value="everyday">Codziennie</option>
-                    <option value="few times a week">Kilka razy w tygodniu</option>
-                    <option value="once a week">Raz w tygodniu</option>
-                    <option value="few times a month">Kilka razy w miesiącu</option>
-                    <option value="less than once a month">Rzadziej niż raz na miesiąc</option>
-                </select>
-            </fieldset>
-            <br>
-            <button type="button" onclick="frequencyNext()">Następne</button>
-            <br>
+        <button type="button" class="customButton" onclick="familyNext()">Następne</button>
         </div>
+<div class="QB"  id="frequencyQ" hidden>
+        <div class="questionField" id="groupFrequency" >
 
+                <label for="frequency" class="question">Jak często palisz/paliłeś(łaś)?</label>
+<div class="select">
+                <select name="frequency" title="Jak często palisz?" id="frequency">
+                    <option value="everyday">codziennie</option>
+                    <option value="few times a week">kilka razy w tygodniu</option>
+                    <option value="once a week">raz w tygodniu</option>
+                    <option value="few times a month">kilka razy w miesiącu</option>
+                    <option value="less than once a month">rzadziej niż raz na miesiąc</option>
+                </select></div>
+        </div>
+        <button type="button" class="customButton" onclick="frequencyNext()">Następne</button>
+</div>
+        <div class="QB" id="friendsQ" hidden>
+        <div class="questionField" id="groupFriends"  >
 
-        <div class="questionField" id="friendsQ" hidden>
-            <fieldset id="groupFriends" >
-                <question>Czy ktoś z Twoich bliskich znajomych pali?</question>
+                <label class="question">Czy ktoś z Twoich bliskich znajomych pali?</label>
                 <br>
+            <label for="friends_yes" class="container">tak
                 <input type="radio" value="yes" id="friends_yes" name="friends" checked>
-                <label>Tak</label>
+                <span class="checkmark"></span>
+                </label>
+            <label for="friends_no" class="container">nie
                 <input type="radio" value="no" id="friends_no" name="friends">
-                <label>Nie</label>
-            </fieldset>
-            <br>
-            <button type="button" onclick="friendsNext()" >Następne</button>
-            <br>
+                <span class="checkmark"></span>
+                </label>
         </div>
-
-
-        <div class="questionField" id="reasonsQ" hidden>
-            <fieldset id="groupReasons" >
-                <question>Dlaczego nie palisz? (Pytanie wielokrotnego wyboru, przytrzymaj ctrl aby zaznaczyć więcej niż jedną odpowiedź)</question>
-                <br>
-                <select name="reasons" title="Dlaczego nie palisz?" multiple>
-                    <option value="health" selected>Ze względów zdrowotnych</option>
-                    <option value="finance">Ze względów finansowych</option>
-                    <option value="smell">Przeszkadza mi zapach dymu papierosowego</option>
-                    <option value="friends">Ze względu na moją rodzinę/znajomych</option>
-                </select>
-            </fieldset>
-            <br>
-            <button type="button" onclick="reasonsNext()">Następne</button>
-            <br>
+        <button type="button" onclick="friendsNext()" class="customButton" >Następne</button>
         </div>
-
-        <div class="questionField" id="situationsQ" hidden>
-            <fieldset id="groupSituations" >
-                <question>W jakich sytuacjach palisz najczęściej?(Pytanie wielokrotnego wyboru, przytrzymaj ctrl aby zaznaczyć więcej niż jedną odpowiedź)</question>
+        <div class="QB" id="reasonsQ" hidden>
+        <div class="questionField"  >
+                <label for="reasons" class="question">Dlaczego nie palisz? (Pytanie wielokrotnego wyboru, przytrzymaj ctrl aby zaznaczyć więcej niż jedną odpowiedź)</label>
                 <br>
-                <select name="situations" title="W jakich sytuacjach najczęściej palisz/ paliłeś?" multiple>
-                    <option value="stress" selected>W sytuacjach stresowych np. przed egzaminem, ważną rozmową, po kłótni.</option>
-                    <option value="alcohol">Na imprezach/przy alkoholu</option>
-                    <option value="boredom">Kiedy się nudzę</option>
-                    <option value="friends">Dla towarzystwa</option>
-                </select>
-            </fieldset>
-            <br>
-            <button type="button" onclick="situationsNext()" >Następne</button>
-            <br>
+            <div class="select">
+                <select id="reasons" name="reasons" title="Dlaczego nie palisz?" multiple>
+                    <option value="health" selected>ze względów zdrowotnych</option>
+                    <option value="finance">ze względów finansowych</option>
+                    <option value="smell">przeszkadza mi zapach dymu papierosowego</option>
+                    <option value="friends">ze względu na moją rodzinę/znajomych</option>
+                </select></div>
+
         </div>
-
-
-        <div class="questionField" id="otherAddictionsQ" hidden>
-            <br>
-            <fieldset id="groupOtherAddictions" >
-                <question>Czy regularnie stosujesz inne używki np. alkohol, kawa?</question>
+        <button type="button" class="customButton" onclick="reasonsNext()">Następne</button>
+        </div>
+        <div class="QB" id="situationsQ" hidden>
+        <div class="questionField" >
+                <label for="situations" class="question">W jakich sytuacjach palisz najczęściej?(Pytanie wielokrotnego wyboru, przytrzymaj ctrl aby zaznaczyć więcej niż jedną odpowiedź)</label>
                 <br>
+            <div class="select">
+                <select name="situations" title="W jakich sytuacjach najczęściej palisz/ paliłeś?" id="situations" multiple>
+                    <option value="stress" selected>w sytuacjach stresowych np. przed egzaminem, ważną rozmową, po kłótni.</option>
+                    <option value="alcohol">na imprezach/przy alkoholu</option>
+                    <option value="boredom">kiedy się nudzę</option>
+                    <option value="friends">dla towarzystwa</option>
+                </select></div>
+        </div>
+        <button type="button" class="customButton" onclick="situationsNext()" >Następne</button>
+        </div>
+<div class="QB" id="otherAddictionsQ" hidden>
+        <div class="questionField" >
+            <br>
+                <label class="question">Czy regularnie stosujesz inne używki np. alkohol, kawa?</label>
+                <br>
+            <label for="addictions_yes" class="container">tak
                 <input type="radio" value="yes" id="addictions_yes" name="otherAddictions" checked>
-                <label>Tak</label>
+                <span class="checkmark"></span>
+                </label>
+            <label for="addictions_no" class="container">nie
                 <input type="radio" value="no" id="addictions_no" name="otherAddictions">
-                <label>Nie</label>
+                <span class="checkmark"></span>
+                </label>
 
-
-            </fieldset>
-            <br>
         </div>
-        <input type="submit" value="Wyślij" id="submit" hidden>
+        <input  type="submit" value="Wyślij" id="submit" hidden>
+</div>
     </form>
 </body>
 </html>
