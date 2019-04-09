@@ -226,6 +226,9 @@ label{
     font-size: 22px;
 }
 
+#questionNumber{
+    color: #f32398;
+}
 
 form {
     align-self: center;

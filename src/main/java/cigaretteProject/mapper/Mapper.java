@@ -45,7 +45,6 @@ public class Mapper {
                 getOneAnswer(survey.getSituations()[i], questionRepository.findById(QuestionTableInitializer.situationsQuestionId), personalInfo, answerList);
             }
 
-
         }
         if(survey.getSmoker().equalsIgnoreCase("no") || survey.getSmoker().equalsIgnoreCase("ex")) {
 
@@ -54,7 +53,6 @@ public class Mapper {
             }
 
         }
-
         //pytania wspólne dla wszystich
         getOneAnswer(survey.getFamily(), questionRepository.findById(QuestionTableInitializer.familyQuestionId), personalInfo, answerList);
         getOneAnswer(survey.getFriends(), questionRepository.findById(QuestionTableInitializer.friendsQuestionId), personalInfo, answerList);

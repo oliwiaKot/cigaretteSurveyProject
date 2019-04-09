@@ -36,9 +36,6 @@ public class MainSurveyController {
             //tworzymy nowy obiekt personal info, wywołujemy metodę z mappera, ktora przypisuje mu wartości pobrane z formularza
             //zapisujemy obiekt jako wiersz tablicy
             PersonalInfo personalInfo = this.mapper.getPersonalInfo(survey);
-
-
-
             this.personalInfoRepository.save(personalInfo);
 
             //Tworzymy listę odpowiedzi na pojedyncze pytania użytkonika wywołując metodę z mappera, która wpisuje do niej odpowiedzi pobrane z formularza
@@ -46,20 +43,14 @@ public class MainSurveyController {
             List<Answer> answerList = this.mapper.getAnswerList(survey, personalInfo);
             for(int i =0; i<answerList.size(); i++){
                 this.answerRepository.save(answerList.get(i));
-
             }
 
             response.sendRedirect("/thankyou.html");
-
-
-
         }else{
             response.sendRedirect("/notfunny.html");
         }
 
-
-
-        }
+    }
 
 
         public boolean checkIfCorrect(Survey survey){
