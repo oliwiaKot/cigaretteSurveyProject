@@ -18,8 +18,6 @@ function personalInfoNext() {
 
 
     }
-
-
 }
 
 function reasonsNext() {

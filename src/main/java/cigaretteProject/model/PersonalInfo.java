@@ -6,6 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 //tabela danych osobowych użytkownika
+
+/**
+ * Klasa odpowiadająca strukturze tabeli przechowującej dane podstawowe o ankietowanym w bazie danych
+ */
 @Entity
 public class PersonalInfo {
 

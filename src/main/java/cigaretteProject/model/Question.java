@@ -5,6 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 
+/**
+ * Klasa będąca odwzorowaniem struktury tabeli w bazie danych przechowującej treści pytań i ich numery.
+ */
 @Entity
 public class Question {
 

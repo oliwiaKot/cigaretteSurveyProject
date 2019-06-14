@@ -12,13 +12,19 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Klasa odpowiadająca za wydobycie danych z obiektu klasy Survey i przypisanie ich do odpowiednich obiektów klas PersonalInfo i Answer
+ */
 @Component
 public class Mapper {
     @Autowired
     private QuestionRepository questionRepository;
 
-
-    //metoda, która do obiektu klasy PersonalInfo przypisuje odpowiedzi z formularza z danymi osobowymi i zwraca ten obiekt
+    /**
+     *     metoda, która do obiektu klasy PersonalInfo przypisuje odpowiedzi z formularza z danymi osobowymi i zwraca ten obiekt
+     * @param survey obiekt klasy survey przechowujący wszystkie przesłane dane
+     * @return personalInfo - zwraca obiekt klasy personal info, będący pojedynczym wypełnionym wierszem tabeli PersonalInfo w bazie danych
+     */
     public PersonalInfo getPersonalInfo(Survey survey){
         PersonalInfo personalInfo = new PersonalInfo();
         personalInfo.setAge(survey.getAge());
@@ -32,8 +38,13 @@ public class Mapper {
         return personalInfo;
     }
 
-    //metoda, która zwróci listę pojedynczych odpowiedzi na pytania szczegółowe, ktorych udzielił użytkownik w ankiecie
-    //w zależności od tego, czy zadeklarował się jako palacz, były palacz czy osoba niepaląca
+    /**
+     *metoda, która zwróci listę pojedynczych odpowiedzi na pytania szczegółowe, ktorych udzielił użytkownik w ankiecie
+     * w zależności od tego, czy zadeklarował się jako palacz, były palacz czy osoba niepaląca
+     * @param survey
+     * @param personalInfo
+     * @return zwraca listę pojedynczych odpowiedzi na pytania szczegółowe
+     */
     public List<Answer> getAnswerList(Survey survey, PersonalInfo personalInfo){
         List<Answer> answerList = new ArrayList<>();
 
@@ -62,7 +73,13 @@ public class Mapper {
         return answerList;
     }
 
-    //metoda, ktora dodaje pojedynczą odpowiedź do listy odpowiedzi użytkownika
+    /**
+     * metoda, ktora dodaje pojedynczą odpowiedź do listy odpowiedzi użytkownika
+     * @param answerText - wartość odpowiedzi na pytanie
+     * @param quest - pytanie, na które udzielono odpowiedzi
+     * @param persInfo - osoba udzielająca odpowiedzi
+     * @param ansList - lista odpowiedzi udzielonych przez użytkownika
+     */
     public void getOneAnswer(String answerText, Question quest, PersonalInfo persInfo, List<Answer> ansList){
         Answer answer = new Answer();
         answer.setAnswer(answerText);

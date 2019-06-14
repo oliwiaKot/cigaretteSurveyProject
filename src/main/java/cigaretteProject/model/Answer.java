@@ -7,6 +7,9 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotBlank;
 
+/**
+ * Klasa odzwierciedlająca strukturę tabeli asocjacyjnej w bazie danych, przechowującej id osoby odpowiadającej na pytanie, id pytania oraz udzieloną odpowiedź.
+ */
 @Entity
 public class Answer {
 //Id odpowiedzi, generowane automatycznie przez Spring

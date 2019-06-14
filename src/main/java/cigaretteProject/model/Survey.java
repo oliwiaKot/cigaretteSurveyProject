@@ -1,5 +1,8 @@
 package cigaretteProject.model;
 
+/**
+ * Klasa odpowiadająca za pobranie wszystkich danych przesłanych metodą "POST" w formularzu
+ */
 public class Survey {
 //zbieramy wszystkie informacje z formularza, nawet te zbędne - wszystkie pytania jakie są
     private String age; //wiek, jednokrotny wybor

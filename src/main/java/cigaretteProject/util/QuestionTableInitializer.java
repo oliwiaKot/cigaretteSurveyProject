@@ -8,8 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import cigaretteProject.repo.QuestionRepository;
-//klasa, która pozwala jednokrotnie stworzyć w bazie danych tabelę z pytaniami, zawierającą pytanie i id pytania
-//wywołana jest w momencie uruchomienia aplikacji, poprzez metodę afterPropertiesSet interfejsu InitializingBean
+
+/**
+ * klasa, która pozwala jednokrotnie stworzyć w bazie danych tabelę z pytaniami, zawierającą pytanie i id pytania
+ * wywołana jest w momencie uruchomienia aplikacji, poprzez metodę afterPropertiesSet interfejsu InitializingBean
+ */
+
 @Component
 public class QuestionTableInitializer implements InitializingBean {
 
@@ -26,7 +30,11 @@ public class QuestionTableInitializer implements InitializingBean {
     @Autowired
     private QuestionRepository questionRepository;
 
-    //metoda ktora zapisuje pojedyncze pytanie i jego id w tabeli pytan
+    /**
+     * metoda ktora zapisuje pojedyncze pytanie i jego id w tabeli pytan
+     * @param id
+     * @param text
+     */
         public void giveQuestionContents( Long id, String text){
         Question q = new Question();
         q.setText(text);
@@ -34,9 +42,13 @@ public class QuestionTableInitializer implements InitializingBean {
         questionRepository.save(q);
     }
 
-    //metoda wywolywana przy uruchomieni aplikacji
-    //sprawdza czy pytania sa w bazie poprzez count. Jeśli jest zero, to pytań nie ma i są dodawane przez wywoływanie metody giveQuestionContents
-    //jeśli są to nic nie robi, w konsoli pojawi się informacja, że pytania już są w bazie zapisane
+    /**
+     * metoda wywolywana przy uruchomieni aplikacji
+     * sprawdza czy pytania sa w bazie poprzez count. Jeśli jest zero, to pytań nie ma i są dodawane przez wywoływanie metody giveQuestionContents
+     * jeśli są to nic nie robi, w konsoli pojawi się informacja, że pytania już są w bazie zapisane
+     * @throws Exception
+     */
+
     @Override
     public void afterPropertiesSet() throws Exception {
 
